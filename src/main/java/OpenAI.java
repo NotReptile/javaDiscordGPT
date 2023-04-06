@@ -3,10 +3,8 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 public class OpenAI {
-    //private static final String API_URL = "https://api.openai.com/v1/models/text-davinci-003";
     private static final String API_URL = "https://api.openai.com/v1/completions";
     private static final String API_HEADER = "Bearer %s";
-    //private static final String API_HEADER2 = "application/json";
 
     private final String apiKey;
     private final OkHttpClient httpClient;
