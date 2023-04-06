@@ -12,7 +12,7 @@ public class Bot extends ListenerAdapter {
     private final String openaiApiKey;
     private final String discordBotToken;
     private final OpenAI openai;
-    private final String channelId = "1093271290799980614";
+    private final String channelId = "your channelId";
 
     public Bot(String openaiApiKey, String discordBotToken) {
         this.openaiApiKey = openaiApiKey;
